@@ -1,0 +1,49 @@
+body {
+    width: 100%;
+    background-color: #0398FC;
+    font-family: Tahoma;
+  }
+  
+  h1, p {
+    text-align: center;
+  }
+  
+  h1 {
+    padding-top: 40px;
+  }
+  
+  div {
+    background-color: #244780;
+    width: 70%;
+    max-width: 700px;
+    min-width: 300px;
+    margin: auto;
+    padding: 9px 15px 1px 15px;
+    color: white;
+  }
+  
+  label {
+    display: block;
+    margin: 1rem 0;
+    
+  }
+  
+  form {
+    margin: 0 auto;
+    width: 55vw;
+    max-width: 500px;
+    min-width: 300px;
+  }
+  
+  input, select, textarea {
+    margin: 8px 0 0 0;
+    width: 100%;
+    min-height: 2.3rem;
+    border: 0.5px round;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }

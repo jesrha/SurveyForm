@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Survey Form</title>
+    <link rel = "stylesheet" href = "style.css"></link>  
+  </head>
+  <body>
+    <h1 id="title">Computer Science Form</h1>
+    <p id="description">Complete this survey</p>
+    <div>
+    <form id="survey-form">
+      
+      <label id="name-label">Name: <input id="name" name="name" type="text" placeholder="Enter your full-name"required></input></label>
+      <label id="email-label">Email: <input id="email" name="email" type="email" placeholder="Enter your email" required></input></label>
+      <label id="number-label">Age (optional): <input id="number" type="number" min="13" max="70" placeholder="Age"></input></label>
+      
+      <label>What career path are you following?
+        <select id="dropdown">
+          <option>(Choose Occupation)</option>
+          <option>Front-End</option>
+          <option>Back-End</option>
+          <option>Data Science</option>
+          <option>App Development</option>
+          <option>Video Game Developer</option>
+        </select>
+    
+    <legend>Employment Type:</legend>
+    <label for="part-time"><input id="part-time" name="employment" type="radio" value="2"class="inline"/>Part-time</label>
+    <label for="full-time"><input id="full-time" name="employment" type="radio" value = "1" class="inline"/>Full-time</label>
+    
+    <legend>What languages do you know?</legend>
+    <label><input class="inline" value ="language_one" type="checkbox"/>CSS</label>
+    <label><input class="inline" value ="language_one" type="checkbox"/>HTML</label>
+
+    <label>Provide your story:<textarea rows = 5 cols = 40 placeholder="Write here"></textarea></label>
+
+    <input id="submit" type="submit"></input>
+
+    </form>
+    </div>
+  </body>
+</html>
